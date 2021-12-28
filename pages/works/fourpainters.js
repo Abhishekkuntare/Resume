@@ -1,14 +1,4 @@
-import {
-  Box,
-  Container,
-  Badge,
-  Link,
-  List,
-  ListItem,
-  UnorderedList,
-  Heading,
-  Center
-} from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -18,16 +8,18 @@ const Work = () => (
   <Layout title="The four painters">
     <Container>
       <Title>
-       DisneyPlus <Badge>2021</Badge>
+        DisneyPlus <Badge>2021</Badge>
       </Title>
       <P>
-      Disney+ is the streaming home of Disney, Pixar, Marvel, Star Wars, National Geographic, and more. From new releases to your favorite classics and exclusive .
+        Disney+ is the streaming home of Disney, Pixar, Marvel, Star Wars,
+        National Geographic, and more. From new releases to your favorite
+        classics and exclusive .
       </P>
       <List ml={4} my={4}>
-      <ListItem>
+        <ListItem>
           <Meta>Website</Meta>
           <Link href="https://disney-plus-3dc00.web.app/">
-          https://disney-plus-3dc00.web.app/
+            https://disney-plus-3dc00.web.app/
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -41,7 +33,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Auth</Meta>
-        We can auth with Google.
+          We can auth with Google.
         </ListItem>
       </List>
 

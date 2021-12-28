@@ -1,11 +1,4 @@
-import {
-  Container,
-  Badge,
-  Link,
-  List,
-  ListItem,
-
-} from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -15,17 +8,19 @@ const Work = () => (
   <Layout title="Tesla">
     <Container>
       <Title>
-       Tesla <Badge> 2021</Badge>
+        Tesla <Badge> 2021</Badge>
       </Title>
       <P>
-      Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and ..
+        Tesla is accelerating the world's transition to sustainable energy with
+        electric cars, solar and integrated renewable energy solutions for homes
+        and ..
       </P>
 
       <List ml={4} my={4}>
-      <ListItem>
+        <ListItem>
           <Meta>Website</Meta>
           <Link href="https://tesla-cbfc3.web.app/">
-          https://tesla-cbfc3.web.app/ <ExternalLinkIcon mx="2px" />
+            https://tesla-cbfc3.web.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -36,20 +31,17 @@ const Work = () => (
           <Meta>Stack</Meta>
           <span>NextJs, TailwindCss, Firebase</span>
         </ListItem>
-       
-        
+
         <ListItem>
           <Meta>Source</Meta>
           <Link href="https://github.com/Abhishekkuntare">
-          https://github.com/Abhishekkuntare <ExternalLinkIcon mx="2px" />
+            https://github.com/Abhishekkuntare <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
 
-
       <WorkImage src="/images/works/tesla1.png" alt="tesla" />
       <WorkImage src="/images/works/tesla2.png" alt="tesla" />
-
     </Container>
   </Layout>
 )

@@ -1,13 +1,4 @@
-import {
-  Container,
-  Badge,
-  Link,
-  List,
-  ListItem,
-  UnorderedList,
-  Heading,
-  Center
-} from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -25,10 +16,10 @@ const Work = () => (
       </P>
 
       <List ml={4} my={4}>
-      <ListItem>
+        <ListItem>
           <Meta>Website</Meta>
           <Link href="https://abhishekkuntare.github.io/Whether/">
-          https://abhishekkuntare.github.io/Whether/
+            https://abhishekkuntare.github.io/Whether/
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

@@ -71,7 +71,7 @@ const Home = () => (
           Front end developer duties include determining the structure and
           design of web pages, striking a balance between functional and
           aesthetic design, and optimized for responsive smartphones and
-          Currently i work on this project{' '}
+          Currently i work on this project
           <NextLink href="/works/inkdrop">
             <Link>Astro</Link>
           </NextLink>

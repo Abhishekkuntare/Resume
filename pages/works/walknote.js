@@ -4,10 +4,7 @@ import {
   Link,
   List,
   ListItem,
-  SimpleGrid,
-  UnorderedList,
-  Heading,
-  Center
+  SimpleGrid
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -21,14 +18,14 @@ const Work = () => (
         Fortnite <Badge>2021</Badge>
       </Title>
       <P>
-      Fortnite is an online video game developed by Epic Games and released in 2017.
-      I'm made the clone of that.
+        Fortnite is an online video game developed by Epic Games and released in
+        2017. I'm made the clone of that.
       </P>
       <List ml={4} my={4}>
-      <ListItem>
+        <ListItem>
           <Meta>Website</Meta>
           <Link href="https://fortnite-6eceb.web.app/">
-          https://fortnite-6eceb.web.app/
+            https://fortnite-6eceb.web.app/
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -42,10 +39,10 @@ const Work = () => (
         </ListItem>
       </List>
       <SimpleGrid columns={2} gap={2}>
-      <WorkImage src="/images/works/fortnite3.png" alt="fortnite" />
+        <WorkImage src="/images/works/fortnite3.png" alt="fortnite" />
         <WorkImage src="/images/works/fortnite2.png" alt="fortnite" />
       </SimpleGrid>
-        <WorkImage src="/images/works/fortnite01.png" alt="fortnite" />
+      <WorkImage src="/images/works/fortnite01.png" alt="fortnite" />
     </Container>
   </Layout>
 )
