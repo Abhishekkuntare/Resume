@@ -11,9 +11,7 @@ const Work = () => (
         Tesla <Badge> 2021</Badge>
       </Title>
       <P>
-        Tesla is accelerating the world's transition to sustainable energy with
-        electric cars, solar and integrated renewable energy solutions for homes
-        and ..
+        Tesla 
       </P>
 
       <List ml={4} my={4}>

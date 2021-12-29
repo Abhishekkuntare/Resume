@@ -18,8 +18,8 @@ const Work = () => (
         Fortnite <Badge>2021</Badge>
       </Title>
       <P>
-        Fortnite is an online video game developed by Epic Games and released in
-        2017. I'm made the clone of that.
+        Fortnite is an online video game developed by Epic Games and released in2017.Im 
+        made the clone that.
       </P>
       <List ml={4} my={4}>
         <ListItem>

@@ -44,8 +44,8 @@ const Works = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="menkiki" thumbnail={tesla} title="Tesla">
-            Tesla is accelerating the world's transition to sustainable energy
-            with electric car.
+            Tesla is accelerating the transition to sustainable energy with
+            electric car.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

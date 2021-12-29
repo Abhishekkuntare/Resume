@@ -18,7 +18,12 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoBehance, IoLogoInstagram, IoLogoGithub,IoLinkSharp } from 'react-icons/io5'
+import {
+  IoLogoBehance,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLinkSharp
+} from 'react-icons/io5'
 import lambo from '../public/images/links/lambo.png'
 import letsTalk from '../public/images/works/letsTalk.png'
 
@@ -66,17 +71,14 @@ const Home = () => (
           Intro
         </Heading>
         <Paragraph>
-          Hey Abhishek is here , I'm full-stack developer based in Amravati with
-          a passion for building our path I am a specialize in website design.
-          Front end developer duties include determining the structure and
-          design of web pages, striking a balance between functional and
-          aesthetic design, and optimized for responsive smartphones and
-          Currently i work on this project
-          <NextLink href="/works/inkdrop">
-            <Link>Astro</Link>
-          </NextLink>
-          .
+          Hello im full-stack developer based in Amravati with a passion for
+          building digital services/stuff he wants. He has a knack for all
+          things launching products, from planning and designing all the way to
+          solving real-life problems with code.Currentley i work on this project.{' '}
         </Paragraph>
+        <NextLink href="/works/inkdrop">
+          <Link>Astro</Link>
+        </NextLink>
         <Box align="center" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
@@ -112,9 +114,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
-        <Paragraph>
-          Programming, Cubes, Playing Football
-        </Paragraph>
+        <Paragraph>Programming, Cubes, Playing Football</Paragraph>
       </Section>
 
       <Section delay={0.3}>
@@ -134,7 +134,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.behance.net/abhishekkuntare" target="_blank">
+            <Link
+              href="https://www.behance.net/abhishekkuntare"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -145,7 +148,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/abhishek-kuntare-65662421b/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/abhishek-kuntare-65662421b/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -156,7 +162,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.instagram.com/abhishek__kuntare/" target="_blank">
+            <Link
+              href="https://www.instagram.com/abhishek__kuntare/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
